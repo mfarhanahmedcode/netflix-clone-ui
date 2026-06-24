@@ -46,7 +46,7 @@ Netflix-Clone/
 
 ## 🚀 Live Demo
 
-(Add GitHub Pages or Vercel Link)
+https://netflix-cloneui.vercel.app/
 
 ## 📷 Preview
 
