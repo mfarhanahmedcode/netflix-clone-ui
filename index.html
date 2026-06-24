@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Pakistan - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.png" type="image/png">
+</head>
+
+<body>
+    <div class="main">
+        <nav>
+            <img src="assets/images/logo.svg" alt="Netflix Logo">
+            <button>Sing In</button>
+        </nav>
+        <div class="box"></div>
+        <div class="hero">
+            <div class="content">
+                <h1>Unlimited movies, TV shows, and more</h1>
+                <p>Starts at Rs 250. Cancel anytime.</p>
+            </div>
+            <label for="email">Ready to watch? Enter your email to create or restart your membership.</label>
+            <div class="fill">
+                <input id="email" type="email" placeholder="Email Address">
+                <div>
+                    <button>Get Started ></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Trending Section -->
+    <section class="trending">
+
+        <h2>Trending Now</h2>
+
+        <div class="movies">
+            <button class="prev">&#10094;</button>
+
+            <div class="slider" id="slider"></div>
+
+            <button class="next">&#10095;</button>
+        </div>
+
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <h2>More Reasons to Join</h2>
+
+        <div class="feature-grid" id="featureGrid"></div>
+    </section>
+    <!-- FAQs -->
+    <section class="faq-section">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq" id="faq"></div>
+    </section>
+
+    <script src="script.js"></script>
+
+    <!-- footer -->
+    <footer>
+        <div>
+            <label for="email">Ready to watch? Enter your email to create or restart your membership.</label>
+            <div class="fill">
+                <input type="email" id="email" placeholder="Email address">
+                <button>Get Started</button>
+            </div>
+        </div>
+        <div class="links">
+            <div>
+                <a href="">Questions? Contact us.</a>
+            </div>
+            <div class="fnav-links">
+                <div class="fnav">
+                    <a href="">FAQ</a>
+                    <a href="">Investor Relations</a>
+                    <a href="">Privacy</a>
+                    <a href="">Speed Test</a>
+                </div>
+                <div class="fnav">
+                    <a href="">Help Center</a>
+                    <a href="">Jobs</a>
+                    <a href="">Cookie Preferences</a>
+                    <a href="">Legal Notices</a>
+                </div>
+                <div class="fnav">
+                    <a href="">Account</a>
+                    <a href="">Ways to Watch</a>
+                    <a href="">Corporate Information</a>
+                    <a href="">Only on Netflix</a>
+                </div>
+                <div class="fnav">
+                    <a href="">Media Center</a>
+                    <a href="">Terms of Use</a>
+                    <a href="">Contact Us</a>
+                </div>
+            </div>
+            <div>
+                <label for="languageSelect">Select Language</label>
+                <div class="language">
+                    <select name="LanguageSelect" id="languageSelect">
+                        <option lang="en" label="English" value="en-PK" selected>English</option>
+                    </select>
+                </div>
+            </div>
+            <div>Netflix, Pakistan</div>
+        </div>
+    </footer>
+</body>
+
+</html>
